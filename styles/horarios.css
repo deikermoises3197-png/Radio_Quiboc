@@ -1,0 +1,133 @@
+body {
+    background: linear-gradient(to right, #222020, #a70a07);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    padding: 10px;
+    background-color: #a70a07;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+    float: right;
+}
+
+nav a:hover {
+    color: #b4a307;
+}
+
+
+.logo {
+    width: 15%;
+    margin: 40px 10px 10px 10px;
+    position: absolute;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+    text-decoration: double underline #bebebe;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.horarios-table {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.horarios-table th,
+.horarios-table td {
+    padding: 14px 10px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.horarios-table th {
+    background: #a70a07;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.horarios-table tr:last-child td {
+    border-bottom: none;
+}
+
+footer {
+    background: #222020;
+}
+
+.div-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex1 {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.flex2 {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #bebebe;
+}
+
+.flex3 {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.div-footer div div img {
+    max-width: 200px;
+    height: auto;
+}
+
+footer p {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .horarios-table {
+        width: 100%;
+        font-size: 0.95rem;
+    }
+
+    .horarios-table th,
+    .horarios-table td {
+        padding: 8px 2px;
+    }
+}
